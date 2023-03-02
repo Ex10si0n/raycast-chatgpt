@@ -1,1 +1,3 @@
-# Raycast ChatGPT
+# ChatGPT integration
+
+ChatGPT integration
