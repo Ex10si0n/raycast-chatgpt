@@ -8,7 +8,6 @@ interface PromptText {
 
 export default function askGPT(props: LaunchProps<{ arguments: PromptText }>) {
     const [response, setResponse] = useState("");
-    // const prompt = "Write a quick sort using JavaScript";
     const { prompt } = props.arguments;
 
     useEffect(() => {
@@ -22,5 +21,5 @@ export default function askGPT(props: LaunchProps<{ arguments: PromptText }>) {
         }
         callApi();
     }, [])
-    return <Detail markdown={response ? response : "Loading..."}/>
+    return <Detail markdown={response}/>
 }
