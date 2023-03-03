@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "chatgpt-integration",
   "title": "ChatGPT integration",
-  "description": "ChatGPT integration",
+  "description": "ChatGPT integration for Raycast by Ex10si0n",
   "icon": "command-icon.png",
   "author": "Ex10si0n",
   "owner": "aspires",
@@ -12,10 +12,10 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "index",
-      "title": "ask",
+      "name": "chat",
+      "title": "chat",
       "description": "Ask ChatGPT",
-      "mode": "no-view",
+      "mode": "view",
       "arguments": [
         {
           "name": "prompt",
@@ -40,6 +40,16 @@
     "prettier": "^2.5.1",
     "typescript": "^4.4.3"
   },
+  "preferences": [
+    {
+      "name": "openaiApiToken",
+      "title": "OpenAI API Token",
+      "description": "Your OpenAI API Token",
+      "type": "password",
+      "default": "",
+      "required": true
+    }
+  ],
   "scripts": {
     "build": "ray build -e dist",
     "dev": "ray develop",
