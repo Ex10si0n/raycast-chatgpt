@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="560659d3-f933-49dc-be2b-726c9b18306d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/command-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/command-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
   </component>
@@ -59,7 +60,7 @@
       <workItem from="1677818660553" duration="95000" />
       <workItem from="1677826610746" duration="54000" />
       <workItem from="1677826670466" duration="832000" />
-      <workItem from="1677914755351" duration="993000" />
+      <workItem from="1677914755351" duration="1670000" />
     </task>
     <servers />
   </component>
