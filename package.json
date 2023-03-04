@@ -12,8 +12,8 @@
   "commands": [
     {
       "name": "chat",
-      "title": "chat",
-      "description": "Ask ChatGPT",
+      "title": "Chat",
+      "description": "Ask ChatGPT using Raycast prompt",
       "mode": "view",
       "arguments": [
         {
