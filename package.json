@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "chatgpt-integration",
-  "title": "ChatGPT integration",
-  "description": "ChatGPT integration for Raycast by Ex10si0n",
+  "name": "ask-chatgpt",
+  "title": "Ask ChatGPT",
+  "description": "ChatGPT integration for Raycast command by Ex10si0n",
   "icon": "command-icon.png",
   "author": "Ex10si0n",
   "categories": [
