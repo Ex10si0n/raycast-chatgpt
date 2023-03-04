@@ -1,4 +1,4 @@
-import {Detail, LaunchProps} from '@raycast/api'
+import {Detail, List, LaunchProps} from '@raycast/api'
 import {useState, useEffect} from "react";
 import {fetchChatResponse} from "./api";
 
@@ -21,5 +21,15 @@ export default function askGPT(props: LaunchProps<{ arguments: PromptText }>) {
         }
         callApi();
     }, [])
-    return <Detail markdown={response}/>
+    return (
+        <Detail
+            markdown={response}
+            metadata={
+            <List.Item.Detail.Metadata>
+                <List.Item.Detail.Metadata.Label title="Prompt" text={prompt} />
+                <List.Item.Detail.Metadata.Label title="Date" text={new Date().toLocaleString()} />
+            </List.Item.Detail.Metadata>
+            }
+        />
+    )
 }
